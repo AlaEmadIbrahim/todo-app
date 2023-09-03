@@ -14,9 +14,17 @@ module.exports = {
   rules: {
     "react-refresh/only-export-components": [
       "warn",
-
       { allowConstantExport: true },
     ],
     "react/prop-types": ["off"],
   },
+  overrides: [
+    {
+      files: ["*.js"], // Adjust the pattern to match your JavaScript files
+      // Remove "plugins" and "extends" keys from here
+      rules: {
+        // ...other ESLint settings specific to these files...
+      },
+    },
+  ],
 };
