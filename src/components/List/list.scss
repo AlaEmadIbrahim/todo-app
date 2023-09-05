@@ -1,0 +1,27 @@
+.list-item {
+    border: 1px solid #007BFF; 
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #00eeff; 
+    color: white; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .list-item p {
+    margin: 10px 0;
+    font-size: 33px;
+    color: rgb(168, 25, 25);
+  }
+  
+  .list-item:hover {
+    background-color: #b3b000; 
+    border: 1px solid #0056b3; 
+  }
+  
+  .list-item .complete {
+    cursor: pointer;
+    color: green;
+    font-size: 33px;
+
+  }
+  
